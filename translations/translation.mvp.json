@@ -1,0 +1,36 @@
+{
+    "loaded": {
+        "en" : "Successfully loaded {green}{COUNT}{default} music kits"
+    },
+    "volume_set" : {
+        "en": "You successfully setted volume to {green}{VOLUME}{default}"
+    },
+    "kit_set": {
+        "en": "You successfully setted kit {green}{KIT_DISPLAY}{default}"
+    },
+    "played": {
+        "en": "MVP sound: {green}{KIT_DISPLAY}{default}"
+    },
+    "menu.title" : {
+        "en": "MVP Control Panel"
+    },
+    "menu.volume.title" : {
+        "en": "MVP Volume List"
+    },
+    "menu.kits.title" : {
+        "en": "MVP Kits List"
+    },
+    "menu.preview.title" : {
+        "en": "MVP Kit: [{KIT_DISPLAY}]"
+    },
+    "menu.preview.play" : {
+        "en": "Play"
+    },
+    "menu.preview.equip" : {
+        "en": "Equip"
+    },
+    "menu.preview.unequip" : {
+        "en": "Unequip"
+    }
+
+}

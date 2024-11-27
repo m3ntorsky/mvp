@@ -12,7 +12,7 @@ AddEventHandler("OnRoundMvp", function(event)
             local player = GetPlayer(playerid)
             if not player or not player:IsValid() or not player:CBaseEntity():IsValid() then goto continue end
             CBaseEntity(player:CCSPlayerController():ToPtr()):EmitSound("StopSoundEvents.StopAllMusic", 100, 1.0)
-            local volume = tonumber(exports["cookies"]:GetPlayerCookie(playerid, "mvp.volume")) / 100
+            local volume = tonumber(exports["cookies"]:GetPlayerCookie(playerid, "mvp.volume") or 100) / 100
             if volume and volume > 0 then
                 NextTick(function()
                     CBaseEntity(player:CCSPlayerController():ToPtr()):EmitSound(kit.event, 100, volume)
